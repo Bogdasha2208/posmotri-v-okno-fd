@@ -89,7 +89,7 @@ video.result__video {
 }
 
 .title {
-  margin-bottom: 26px; 
+  margin-bottom: 26px;
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
@@ -117,8 +117,9 @@ video.result__video {
   flex-direction: column;
   gap: 30px;
 }
+
 .content__list-item {
- padding: 0px 3px;
+  padding: 0px 3px;
 }
 
 .content__card-link {
@@ -161,7 +162,7 @@ video.result__video {
 }
 
 .content__video-card-description-container {
-  flex-grow: 1; 
+  flex-grow: 1;
   min-width: 0;
 }
 
@@ -173,7 +174,7 @@ video.result__video {
   line-height: 100%;
   text-transform: uppercase;
   white-space: nowrap;
-  overflow: hidden; 
+  overflow: hidden;
   text-overflow: ellipsis;
   padding-bottom: 2px;
 }
@@ -186,7 +187,7 @@ video.result__video {
   -webkit-line-clamp: 4;
   line-clamp: 4;
   -webkit-box-orient: vertical;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .visually-hidden {
@@ -299,10 +300,6 @@ video.result__video {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-}
-
-.preloader {
-  position: absolute;
 }
 
  /* Кастомный скроллбар */
